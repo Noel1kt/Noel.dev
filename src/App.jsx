@@ -1,7 +1,6 @@
 import profilePhoto from './assets/img/profile-photo.jpg';
 import './App.css'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFile } from '@fortawesome/free-solid-svg-icons';
+
 
 
 function App() {
@@ -17,15 +16,7 @@ function App() {
       </div>
       <div className='profile-photo'>
         <img className='profile-photo-img' src={profilePhoto} alt="" />
-        <div className='profile-contacto'>
-          <a className="curriculum" href="https://github.com/tu_usuario_de_github">
-            Curriculum Vitae
-            <FontAwesomeIcon icon={faFile} 
-            className='contact-icon' 
-
-            />
-          </a>
-        </div>
+        
         
       </div>
     </section>
