@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faReact } from "@fortawesome/free-brands-svg-icons"
+import { faReact,faSquareJs,faCss3Alt,faFigma,faNode,faPython,faGitAlt } from "@fortawesome/free-brands-svg-icons"
+import { faDatabase,faCloud } from "@fortawesome/free-solid-svg-icons"
 
 export const Skills = () => {
     return(
@@ -9,23 +10,21 @@ export const Skills = () => {
             <div className="lists-skills">
                 <ul>
                     <h2>Frontend</h2>
-                    <li><FontAwesomeIcon icon={faReact} />ReactJS</li>
-                    <li>JavaScript</li>
-                    <li>CSS</li>
-                    <li>Figma</li>
+                    <li><FontAwesomeIcon className="icon-list" size="2x" icon={faReact} />ReactJS</li>
+                    <li><FontAwesomeIcon className="icon-list" size="2x" icon={faSquareJs} />JavaScript</li>
+                    <li><FontAwesomeIcon className="icon-list" size="2x" icon={faCss3Alt} />CSS</li>
+                    <li><FontAwesomeIcon className="icon-list" size="2x" icon={faFigma} />Figma</li>
                 </ul>
                 <ul>
                     <h2>Backend</h2>
-                    <li>Node.js</li>
-                    <li>MySQL</li>
-                    <li>MongoDB</li>
-                    <li>Python</li>
+                    <li><FontAwesomeIcon className="icon-list" size="2x" icon={faNode} />Node.js</li>
+                    <li><FontAwesomeIcon className="icon-list" size="2x" icon={faDatabase} />MySQL</li>
+                    <li><FontAwesomeIcon className="icon-list" size="2x" icon={faPython} />Python</li>
                 </ul>
                 <ul>
                     <h2>DevOps</h2>
-                    <li>Git</li>
-                    <li>AWS</li>
-                    <li>Oracle Cloud</li>
+                    <li><FontAwesomeIcon className="icon-list" size="2x" icon={faGitAlt} />Git</li>
+                    <li><FontAwesomeIcon className="icon-list" size="2x" icon={faCloud} />Oracle Cloud</li>
                 </ul>
             </div>
             

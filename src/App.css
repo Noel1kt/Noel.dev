@@ -73,14 +73,26 @@
     font-size: 3vh;
 }
 .lists-skills h2{
+    text-align: center;
     color: #64ffda;
 }
 .lists-skills li{
+    display: flex;
+    justify-content: start;
+    align-items: center;
     list-style: none;
     color: #ccd6f6;
     padding: 1rem;
+    cursor: pointer;
+}
+.icon-list{
+    color: #64ffda;
+    padding-right: 1rem;
 }
 
+.lists-skills li:hover{
+    color: #64ffda;
+}
 
 
 
