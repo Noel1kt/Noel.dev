@@ -87,11 +87,86 @@
 }
 .icon-list{
     color: #64ffda;
-    padding-right: 1rem;
+    padding-right: 1.2rem;
 }
 
 .lists-skills li:hover{
     color: #64ffda;
+}
+
+/* Proyectos */
+.section-work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15% 10% 10% 10%;
+}
+
+.section-work h1{
+    color: #64ffda;
+    font-size: 8vh;
+    margin: 0%;
+}
+
+.p-title{
+    color: #a8b2d1;
+    font-size: 3vh;
+    text-align: center;
+    width: 70%;
+}
+
+.section-work li{
+    display: flex;
+    margin-top: 8%;
+    
+}
+.description-projects{
+    color: #a8b2d1;
+    text-align: end;
+    font-size: 3vh;
+    margin-left: 25vh;
+}
+
+.paragraph-project{
+    background-color: #112240;
+    position: absolute; /* Añade posición absoluta para que se superponga */
+    right: 0;
+    margin-right: 20vh;
+    padding: 1rem;
+    width: 40vw;
+    text-align: start;
+}
+
+.image-project img{
+    width: 90vh;
+    height:  55vh;
+    border-radius: 10px;
+}
+
+/* middle project */
+
+
+.description-projects-m{
+    color: #a8b2d1;
+    text-align: start;
+    font-size: 3vh;
+    margin-right: 25vh;
+}
+
+.paragraph-project-m{
+    background-color: #112240;
+    position: absolute; /* Añade posición absoluta para que se superponga */
+    left: 0;
+    margin-left: 26vh;
+    padding: 1rem;
+    width: 40vw;
+    text-align: start;
+}
+
+.image-project-m img{
+    width: 90vh;
+    height:  55vh;
+    border-radius: 10px;
 }
 
 
