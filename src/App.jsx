@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -13,6 +10,9 @@ function App() {
         <p>Actualmente me especializo en el desarrollo Front-end en el programa ONE de Oracle.
           Tengo una gran pasión por los efectos de interfaz de usuario, las animaciones 
           y la creación de experiencias intuitivas y dinámicas.</p>
+      </div>
+      <div>
+        
       </div>
     </section>
   
