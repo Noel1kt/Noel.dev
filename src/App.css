@@ -2,8 +2,6 @@
     display: flex;
     align-items: center;
     margin: 10% 7% 10% 13%;
-    
-    
 }
 .about-me{
   width: 60vw;
@@ -43,6 +41,49 @@
     height:  45vh;
     border-radius: 50%;
 }
+
+
+/* Skills */
+.section-skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15% 10% 10% 10%;
+}
+
+.section-skills h1{
+    color: #64ffda;
+    font-size: 8vh;
+    margin: 0%;
+}
+.section-skills p{
+    color: #a8b2d1;
+    font-size: 3vh;
+    text-align: center;
+    width: 70%;
+}
+
+
+.lists-skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    width: 100%;
+    font-size: 3vh;
+}
+.lists-skills h2{
+    color: #64ffda;
+}
+.lists-skills li{
+    list-style: none;
+    color: #ccd6f6;
+    padding: 1rem;
+}
+
+
+
+
 
 /* .profile-contacto{
     display: flex;
