@@ -1,7 +1,7 @@
 .section-about{
     display: flex;
     align-items: center;
-    margin: 10% 7% 10% 13%;
+    
 }
 .about-me{
   width: 60vw;
@@ -48,7 +48,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 15% 10% 10% 10%;
+    margin: 15% 0 10% 0%;
 }
 
 .section-skills h1{
@@ -67,7 +67,7 @@
 .lists-skills{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
     width: 100%;
     font-size: 3vh;
@@ -98,50 +98,62 @@
 .section-work{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 15% 10% 10% 10%;
+    margin: 15% 0 10% 0;
 }
 
 .section-work h1{
     color: #64ffda;
     font-size: 8vh;
     margin: 0%;
+    text-align: center;
 }
 
 .p-title{
     color: #a8b2d1;
     font-size: 3vh;
     text-align: center;
-    width: 70%;
 }
-
+.section-work ul{
+    padding: 0;
+}
 .section-work li{
     display: flex;
+    justify-content: end;
+    width: 100%; 
     margin-top: 8%;
     
 }
+
+
 .description-projects{
     color: #a8b2d1;
-    text-align: end;
+    text-align: start;
     font-size: 3vh;
+    position: absolute;
+    left: 0;
     margin-left: 25vh;
+    
 }
 
 .paragraph-project{
     background-color: #112240;
     position: absolute; /* Añade posición absoluta para que se superponga */
-    right: 0;
-    margin-right: 20vh;
+    left: 0;
+    margin-left: 0;
     padding: 1rem;
     width: 40vw;
     text-align: start;
 }
 
+
 .image-project img{
     width: 90vh;
     height:  55vh;
     border-radius: 10px;
+    left: 0;
+    margin-left: 35vh;
 }
+
 
 /* middle project */
 
@@ -150,23 +162,29 @@
     color: #a8b2d1;
     text-align: start;
     font-size: 3vh;
-    margin-right: 25vh;
+    position: absolute;
+    left: 0;
+    margin-left: 25vh;
+    
 }
 
 .paragraph-project-m{
     background-color: #112240;
     position: absolute; /* Añade posición absoluta para que se superponga */
     left: 0;
-    margin-left: 26vh;
+    margin-left: 0;
     padding: 1rem;
     width: 40vw;
     text-align: start;
 }
 
+
 .image-project-m img{
     width: 90vh;
     height:  55vh;
     border-radius: 10px;
+    left: 0;
+    margin-left: 35vh;
 }
 
 
