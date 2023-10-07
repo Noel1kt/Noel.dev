@@ -1,4 +1,6 @@
 import '../App.css'
+import  serpientesgt from '../assets/img/serpientesgt.png';
+
 
 export const Projects = () => {
     return(
@@ -8,7 +10,7 @@ export const Projects = () => {
             <div>
                 <ul>
                     <li>
-                        <div className='image-project'><img src="https://aprende.guatemala.com/wp-content/uploads/2021/01/Descripci%C3%B3n-de-la-foto-serpiente-cantil-verde-viendo-hacia-abajo-mostrando-el-color-de-su-piel-y-manchas-Cr%C3%A9dito-Pete-Oxford.jpg" alt="" /></div>
+                        <div className='image-project'><img src={serpientesgt} alt="" /></div>
                         <div className="description-projects">
                             <h3>Proyecto Destacado</h3>
                             <h2>SerpientesGt</h2>
