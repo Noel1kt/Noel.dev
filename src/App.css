@@ -132,8 +132,11 @@
     font-size: 3vh;
     position: absolute;
     left: 0;
-    margin-left: 25vh;
-    
+    margin-left: 25vh;  
+}
+
+.description-projects h2{
+    color: #64ffda;
 }
 
 .paragraph-project{
@@ -144,6 +147,7 @@
     padding: 1rem;
     width: 40vw;
     text-align: start;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
 }
 
 
@@ -158,7 +162,7 @@
 
 /* middle project */
 
-
+/* 
 .description-projects-m{
     color: #a8b2d1;
     text-align: start;
@@ -171,7 +175,7 @@
 
 .paragraph-project-m{
     background-color: #112240;
-    position: absolute; /* Añade posición absoluta para que se superponga */
+    position: absolute; 
     left: 0;
     margin-left: 0;
     padding: 1rem;
@@ -187,7 +191,7 @@
     left: 0;
     margin-left: 35vh;
 }
-
+ */
 
 
 
