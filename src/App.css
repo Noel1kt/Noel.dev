@@ -159,6 +159,44 @@
     margin-left: 35vh;
 }
 
+/* contact */
+
+.section-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15% 0 10% 0%;
+}
+
+.section-contact h1{
+    color: #64ffda;
+    font-size: 8vh;
+    margin: 0%;
+    text-align: center;
+}
+
+.section-contact p{
+    color: #a8b2d1;
+    font-size: 3vh;
+    text-align: center;
+    width: 70%;
+}
+.section-contact ul {
+    display: flex;
+    justify-content: space-between;
+   
+}
+.section-contact li {
+    list-style: none;
+    margin: 1rem;
+    opacity: 0.8;
+    transition: transform 0.5s;
+}
+
+.section-contact li:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}
 
 /* middle project */
 
