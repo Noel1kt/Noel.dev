@@ -11,11 +11,11 @@ export const Contact = () => {
             <p>Actualmente no estoy buscando nuevas oportunidades,
             pero puedes mandarme un mensaje en cualquiera de mis redes, ¡te contestaré lo antes posible!</p>
             <ul>
-                <li><a href="https://github.com/Noel1kt" target="_blank"><FontAwesomeIcon className="icon-list" size="3x" icon={faSquareGithub} /></a></li>
-                <li><a href="" target="_blank"><FontAwesomeIcon className="icon-list" size="3x"  icon={faEnvelope} /></a></li>
-                <li><a href="" target="_blank"><FontAwesomeIcon className="icon-list" size="3x"  icon={faLinkedin} /></a></li>
-                <li><a href="" target="_blank"><FontAwesomeIcon className="icon-list" size="3x"  icon={faSquareInstagram} /></a></li>
-                <li><a href="" target="_blank"><FontAwesomeIcon className="icon-list" size="3x"  icon={faSquareWhatsapp} /></a></li>
+                <li><a href="https://github.com/Noel1kt" target="_blank"><FontAwesomeIcon className="icon-contact" size="3x" icon={faSquareGithub} /></a></li>
+                <li><a href="" target="_blank"><FontAwesomeIcon className="icon-contact" size="3x"  icon={faEnvelope} /></a></li>
+                <li><a href="" target="_blank"><FontAwesomeIcon className="icon-contact" size="3x"  icon={faLinkedin} /></a></li>
+                <li><a href="" target="_blank"><FontAwesomeIcon className="icon-contact" size="3x"  icon={faSquareInstagram} /></a></li>
+                <li><a href="" target="_blank"><FontAwesomeIcon className="icon-contact" size="3x"  icon={faSquareWhatsapp} /></a></li>
             </ul>
         </section>
     )
