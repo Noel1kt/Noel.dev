@@ -210,8 +210,8 @@
 .section-contact li {
     list-style: none;
     margin: 1rem;
-    opacity: 0.8;
-    transition: transform 0.5s;
+    opacity: 0.6;
+    transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
 .section-contact li:hover {
@@ -222,8 +222,8 @@
 .icon-contact{
     color: #64ffda;
     padding-right: 1.2rem;
-    transition: opacity 0.5s ease;
 }
+
 
 /* middle project */
 
