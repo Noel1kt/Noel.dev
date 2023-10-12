@@ -72,11 +72,20 @@
     list-style: none;
     width: 100%;
     font-size: 3vh;
+    
 }
+
+.ul-skills:hover h2{
+    color: #64ffda;
+    opacity: 1;
+    transform: scale(1.1);
+} 
 .lists-skills h2{
     text-align: center;
     color: #64ffda;
+    opacity: 0.8;
 }
+
 .lists-skills li{
     display: flex;
     justify-content: start;
@@ -88,12 +97,17 @@
 }
 .icon-list{
     color: #64ffda;
+    opacity: 0.6;
     padding-right: 1.2rem;
 }
 
-.lists-skills li:hover{
+.lists-skills li:hover ,
+.icon-list:hover{
     color: #64ffda;
+    opacity: 1;
 }
+
+
 
 /* Proyectos */
 .section-work{

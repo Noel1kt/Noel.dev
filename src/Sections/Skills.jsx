@@ -8,7 +8,7 @@ export const Skills = () => {
             <h1>Habilidades</h1>
             <p>A lo largo de mi aprendizaje he usado muchas herramentas y lenguajes de programación, aquí te mustro mis preferidos</p>
             <div className="lists-skills">
-                <ul>
+                <ul className="ul-skills">
                     <h2>Frontend</h2>
                     <li><FontAwesomeIcon className="icon-list" size="2x" icon={faReact} />ReactJS</li>
                     <li><FontAwesomeIcon className="icon-list" size="2x" icon={faSquareJs} />JavaScript</li>
