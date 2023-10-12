@@ -1,6 +1,7 @@
 import { About } from "./Sections/About"
 import { Skills } from "./Sections/Skills"
 import { Projects } from "./Sections/Projects"
+import { Contact } from "./Sections/Contact"
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <About/>
       <Skills/>
       <Projects/>
+      <Contact/>
     </>
     
   )
