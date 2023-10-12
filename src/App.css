@@ -101,10 +101,13 @@
     padding-right: 1.2rem;
 }
 
-.lists-skills li:hover ,
-.icon-list:hover{
+.li-skills:hover {
     color: #64ffda;
     opacity: 1;
+}
+.li-skills:hover .icon-list {
+    opacity: 1;
+    /* Otras propiedades para .icon-list cuando se hace hover en .li-skills */
 }
 
 

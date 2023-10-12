@@ -10,21 +10,21 @@ export const Skills = () => {
             <div className="lists-skills">
                 <ul className="ul-skills">
                     <h2>Frontend</h2>
-                    <li><FontAwesomeIcon className="icon-list" size="2x" icon={faReact} />ReactJS</li>
-                    <li><FontAwesomeIcon className="icon-list" size="2x" icon={faSquareJs} />JavaScript</li>
-                    <li><FontAwesomeIcon className="icon-list" size="2x" icon={faCss3Alt} />CSS</li>
-                    <li><FontAwesomeIcon className="icon-list" size="2x" icon={faFigma} />Figma</li>
+                    <li className="li-skills"><FontAwesomeIcon className="icon-list" size="2x" icon={faReact} />ReactJS</li>
+                    <li className="li-skills"><FontAwesomeIcon className="icon-list" size="2x" icon={faSquareJs} />JavaScript</li>
+                    <li className="li-skills"><FontAwesomeIcon className="icon-list" size="2x" icon={faCss3Alt} />CSS</li>
+                    <li className="li-skills"><FontAwesomeIcon className="icon-list" size="2x" icon={faFigma} />Figma</li>
                 </ul>
                 <ul>
                     <h2>Backend</h2>
-                    <li><FontAwesomeIcon className="icon-list" size="2x" icon={faNode} />Node.js</li>
-                    <li><FontAwesomeIcon className="icon-list" size="2x" icon={faDatabase} />MySQL</li>
-                    <li><FontAwesomeIcon className="icon-list" size="2x" icon={faPython} />Python</li>
+                    <li className="li-skills"><FontAwesomeIcon className="icon-list" size="2x" icon={faNode} />Node.js</li>
+                    <li className="li-skills"><FontAwesomeIcon className="icon-list" size="2x" icon={faDatabase} />MySQL</li>
+                    <li className="li-skills"><FontAwesomeIcon className="icon-list" size="2x" icon={faPython} />Python</li>
                 </ul>
                 <ul>
                     <h2>DevOps</h2>
-                    <li><FontAwesomeIcon className="icon-list" size="2x" icon={faGitAlt} />Git</li>
-                    <li><FontAwesomeIcon className="icon-list" size="2x" icon={faCloud} />Oracle Cloud</li>
+                    <li className="li-skills"><FontAwesomeIcon className="icon-list" size="2x" icon={faGitAlt} />Git</li>
+                    <li className="li-skills"><FontAwesomeIcon className="icon-list" size="2x" icon={faCloud} />Oracle Cloud</li>
                 </ul>
             </div>
             
