@@ -15,13 +15,13 @@ export const Skills = () => {
                     <li className="li-skills"><FontAwesomeIcon className="icon-list" size="2x" icon={faCss3Alt} />CSS</li>
                     <li className="li-skills"><FontAwesomeIcon className="icon-list" size="2x" icon={faFigma} />Figma</li>
                 </ul>
-                <ul>
+                <ul className="ul-skills">
                     <h2>Backend</h2>
                     <li className="li-skills"><FontAwesomeIcon className="icon-list" size="2x" icon={faNode} />Node.js</li>
                     <li className="li-skills"><FontAwesomeIcon className="icon-list" size="2x" icon={faDatabase} />MySQL</li>
                     <li className="li-skills"><FontAwesomeIcon className="icon-list" size="2x" icon={faPython} />Python</li>
                 </ul>
-                <ul>
+                <ul className="ul-skills">
                     <h2>DevOps</h2>
                     <li className="li-skills"><FontAwesomeIcon className="icon-list" size="2x" icon={faGitAlt} />Git</li>
                     <li className="li-skills"><FontAwesomeIcon className="icon-list" size="2x" icon={faCloud} />Oracle Cloud</li>

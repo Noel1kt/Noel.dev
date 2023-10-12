@@ -74,7 +74,9 @@
     font-size: 3vh;
     
 }
-
+.ul-skills h2{
+    transition: transform 0.5s ease;
+}
 .ul-skills:hover h2{
     color: #64ffda;
     opacity: 1;
@@ -94,11 +96,13 @@
     color: #ccd6f6;
     padding: 1rem;
     cursor: pointer;
+    transition: opacity 0.5s ease;
 }
 .icon-list{
     color: #64ffda;
     opacity: 0.6;
     padding-right: 1.2rem;
+    transition: opacity 0.5s ease;
 }
 
 .li-skills:hover {
