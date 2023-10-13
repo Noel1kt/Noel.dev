@@ -35,6 +35,7 @@ export const About = () => {
                 <div className="sparkle-10"></div>
                 <img className='profile-photo-img' src={profilePhoto} alt="" />
             </div>
+           
         </div>
         </section>
     )
