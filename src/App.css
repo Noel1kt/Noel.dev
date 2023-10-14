@@ -51,6 +51,7 @@
     opacity: 0.8;
 }
 
+
 .ball {
   position: absolute; 
   z-index: 1;  
@@ -79,14 +80,14 @@
   background: #64ffda;
   border-radius: 50%;
           transform-origin: 87px 87px;
-          animation: rotate 5.7s ease-in-out 0.5s infinite;
+          animation: rotate 6.7s ease-in-out 0.5s infinite;
           filter: blur(5px);
 }
 
 .blubb-2 {
   position: absolute;
-  top: 20%;
-  left: 20%;
+  top: 25%;
+  left: 25%;
   width: 35vh;
   height: 35vh;
           transform: rotate(4deg);
@@ -100,7 +101,7 @@
   background: #64ffda;
   border-radius: 50%;
           transform-origin: 84px 84px;
-          animation: rotate 5.9s ease-in-out 0.7s infinite;
+          animation: rotate 6.9s ease-in-out 0.7s infinite;
           filter: blur(5px);
 }
 
@@ -120,7 +121,7 @@
   background: #64ffda;
   border-radius: 50%;
           transform-origin: 81px 81px;
-          animation: rotate 6.1s ease-in-out 0.9s infinite;
+          animation: rotate 7.1s ease-in-out 0.9s infinite;
           filter: blur(5px);
 }
 
@@ -141,7 +142,7 @@
   background: #64ffda;
   border-radius: 50%;
           transform-origin: 78px 78px;
-          animation: rotate 6.3s ease-in-out 1.1s infinite;
+          animation: rotate 7.3s ease-in-out 1.1s infinite;
           filter: blur(5px);
 }
 
@@ -162,7 +163,7 @@
   background: #64ffda;
   border-radius: 50%;
           transform-origin: 75px 75px;
-          animation: rotate 6.5s ease-in-out 1.3s infinite;
+          animation: rotate 7.5s ease-in-out 1.3s infinite;
           filter: blur(5px);
 }
 
@@ -183,7 +184,7 @@
   background: #64ffda;
   border-radius: 50%;
           transform-origin: 72px 72px;
-          animation: rotate 6.7s ease-in-out 1.5s infinite;
+          animation: rotate 7.7s ease-in-out 1.5s infinite;
           filter: blur(5px);
 }
 
@@ -204,7 +205,7 @@
   background: #64ffda;
   border-radius: 50%;
           transform-origin: 69px 69px;
-          animation: rotate 6.9s ease-in-out 1.7s infinite;
+          animation: rotate 7.9s ease-in-out 1.7s infinite;
           filter: blur(5px);
 }
 
@@ -225,7 +226,7 @@
   background: #64ffda;
   border-radius: 50%;
           transform-origin: 66px 66px;
-          animation: rotate 7.1s ease-in-out 1.9s infinite;
+          animation: rotate 8.1s ease-in-out 1.9s infinite;
           filter: blur(5px);
 }
 
@@ -311,7 +312,7 @@
 @keyframes show {
     from {
         opacity: 0;
-        scale: 25%;
+        scale: 15%;
     }
 
     to {
@@ -320,7 +321,7 @@
     }
 }
 
-.li-skills {
+.li-skills, .section-skills h1, .section-skills p  {
     view-timeline-name: --li;
     view-timeline-axis: block;
 
@@ -395,6 +396,29 @@
     border-radius: 10px;
     left: 0;
     margin-left: 35vh;
+}
+
+@keyframes show1 {
+    from {
+        opacity: 0;
+        transform: translateX(20%); 
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.image-project img {
+    view-timeline-name: --img;
+    view-timeline-axis: block;
+
+    animation-timeline: --img;
+    animation-name: show1;
+
+    animation-range: entry 5% cover 50%;
+    animation-fill-mode: both;
 }
 
 /* contact */
