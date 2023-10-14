@@ -12,10 +12,10 @@ export const Contact = () => {
             pero puedes mandarme un mensaje en cualquiera de mis redes, ¡te contestaré lo antes posible!</p>
             <ul>
                 <li><a href="https://github.com/Noel1kt" target="_blank"><FontAwesomeIcon className="icon-contact" size="3x" icon={faSquareGithub} /></a></li>
-                <li><a href="" target="_blank"><FontAwesomeIcon className="icon-contact" size="3x"  icon={faEnvelope} /></a></li>
-                <li><a href="www.linkedin.com/in/noel-mazariegos" target="_blank"><FontAwesomeIcon className="icon-contact" size="3x"  icon={faLinkedin} /></a></li>
+                <li><a href="mailto:noelmazariegospc@gmail.com" target="_blank"><FontAwesomeIcon className="icon-contact" size="3x"  icon={faEnvelope} /></a></li>
+                <li><a href="https://www.linkedin.com/in/noel-mazariegos/" target="_blank"><FontAwesomeIcon className="icon-contact" size="3x"  icon={faLinkedin} /></a></li>
                 <li><a href="https://www.instagram.com/noel1kt" target="_blank"><FontAwesomeIcon className="icon-contact" size="3x"  icon={faSquareInstagram} /></a></li>
-                <li><a href="" target="_blank"><FontAwesomeIcon className="icon-contact" size="3x"  icon={faSquareWhatsapp} /></a></li>
+                <li><a href="https://wa.me/58485797" target="_blank"><FontAwesomeIcon className="icon-contact" size="3x"  icon={faSquareWhatsapp} /></a></li>
             </ul>
         </section>
     )
