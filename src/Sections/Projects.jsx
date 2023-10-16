@@ -12,7 +12,7 @@ export const Projects = () => {
             <div>
                 <ul>
                     <li>
-                        <div className='image-project'><img src={serpientesgt} alt="" /></div>
+                        <div className='image-project'><img src={serpientesgt} alt="serpientesGT" /></div>
                         <div className="description-projects">
                             <h2>SerpientesGt</h2>
                             <div className="text-project">
@@ -24,7 +24,7 @@ export const Projects = () => {
                         </div>
                     </li>
                     <li>
-                        <div className='image-project'><img  src={avicolaimage} alt="" /></div>
+                        <div className='image-project'><img  src={avicolaimage} alt="avicolaweb" /></div>
                         <div className="description-projects">
                             <h2>Control de Avicola</h2>
                             <div className="text-project">
@@ -38,7 +38,7 @@ export const Projects = () => {
 
                     </li>
                     <li>
-                        <div className='image-project'><img src={alurageek} alt="" /></div>
+                        <div className='image-project'><img src={alurageek} alt="e-commerce" /></div>
                         <div className="description-projects">
                             <h2>E-commerce</h2>
                             <div className="text-project">
