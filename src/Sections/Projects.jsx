@@ -42,9 +42,10 @@ export const Projects = () => {
                         <div className="description-projects">
                             <h2>E-commerce</h2>
                             <div className="text-project">
-                                <p className="paragraph-project">Este proyecto surge como una iniciativa para la educación hambiental en Guatemala. 
-                                    Se utilizó la librería React-Router-Dom para 
-                                    además de simular una API con Vercel para obtener la información de las especies. 
+                                <p className="paragraph-project">
+                                    Para la creación de esta web e-commerce se utilizaron conocimientos tanto de Frontend como 
+                                    Backend, es un proyecto interesante y retador ya que combina las necesidades de tener una web llamativa y 
+                                    funcional para los usuarios. 
                                 </p>
                             </div>
                         </div>
