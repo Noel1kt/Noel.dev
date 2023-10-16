@@ -28,9 +28,10 @@ export const Projects = () => {
                         <div className="description-projects">
                             <h2>Control de Avicola</h2>
                             <div className="text-project">
-                                <p className="paragraph-project">Este proyecto surge como una iniciativa para la educación hambiental en Guatemala. 
-                                    S,
-                                    además de simular una API con Vercel para obtener la información de las especies. 
+                                <p className="paragraph-project">
+                                    La creación de esta web first mobile surge como solución a la necesidad de hacer cuentas más rapidas
+                                    y precisas de una producción avicola, cuenta con los datos de Hy-Line International con los que se consiguió
+                                    adaptar las operaciones necesarias que realiza esta web. 
                                 </p>
                             </div>
                         </div>
