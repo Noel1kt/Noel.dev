@@ -1,9 +1,11 @@
 import profilePhoto from '../assets/img/profile-photo.jpg';
+import { ContactNav } from '../Components/ContactNav';
 import '../App.css'
 
 export const About = () => {
     return(
         <section className='section-about'>
+        <ContactNav/>
         <div className='about-me'>
             <h3>Hola, mi nombre es</h3>
             <h1>Noel Mazariegos.</h1>

@@ -1,6 +1,7 @@
 .section-about{
     display: flex;
     align-items: center;
+    margin: 10% 5% 10% 10%;
 }
 .about-me{
   width: 70vw;
@@ -244,7 +245,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 15% 0 10% 0%;
+    margin: 10% ;
 }
 
 .section-skills h1{
@@ -338,7 +339,7 @@
 .section-work{
     display: flex;
     flex-direction: column;
-    margin: 15% 0 10% 0;
+    margin: 10%;
 }
 
 .section-work h1{
@@ -449,7 +450,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 15% 0 10% 0%;
+    margin: 17% 10%;
 }
 
 .section-contact h1{
@@ -487,6 +488,61 @@
     padding-right: 1.2rem;
 }
 
+
+/* nav list left */
+.section-contactnav {
+    position: relative; /* Fija la barra de navegación en la ventana del navegador */
+    bottom: 0; /* La barra se fija en la parte superior de la ventana */
+    margin-bottom: 0%;
+    left: 0; /* La barra se coloca en el lado izquierdo de la ventana */
+    width: 80px; /* Define el ancho deseado para la barra */
+    background-color: #0a192f; /* Color de fondo de la barra */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    text-align: center;
+  }
+  
+  .icon-contact-nav {
+    color: #64ffda; /* Color de los iconos */
+    margin-top: 1rem;
+    opacity: 0.6;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.icon-contact-nav:hover {
+    transform: scale(1.3);
+    opacity: 1;
+}
+
+/* @keyframes shownav {
+    from {
+        opacity: 1;
+        transform: translateX(0); 
+    }
+
+    to {
+        opacity: 0;
+        transform: translateX(-20%);
+    }
+}
+
+.li-contact{
+    view-timeline-name: --li;
+    view-timeline-axis: block; 
+
+    animation-timeline: --li;
+    animation-name: shownav;
+
+    animation-range: entry 100% cover 100%;
+    animation-fill-mode: backwards;
+} */
+  
 
 /* middle project */
 
