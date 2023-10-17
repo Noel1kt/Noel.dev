@@ -1,3 +1,5 @@
+// crear una barra nav inferior
+
 export const Nav = () => {
     return(
         <nav>
