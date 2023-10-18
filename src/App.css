@@ -379,6 +379,13 @@
     color: #64ffda;
 }
 
+.paragraph-project a{
+    text-decoration: none;
+    color: #64ffda;
+    display: block;
+    padding: 1rem;
+    
+}
 .paragraph-project{
     background-color: #112240;
     position: absolute; /* Añade posición absoluta para que se superponga */

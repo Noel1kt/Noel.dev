@@ -35,6 +35,7 @@ export const Projects = () => {
                                     La creación de esta web first mobile surge como solución a la necesidad de hacer cuentas más rapidas
                                     y precisas de una producción avicola, cuenta con los datos de Hy-Line International con los que se consiguió
                                     adaptar las operaciones necesarias que realiza esta web. 
+                                    <a href="">Ver Proyecto<FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
                                 </p>
                             </div>
                         </div>
@@ -49,6 +50,7 @@ export const Projects = () => {
                                     Para la creación de esta web e-commerce se utilizaron conocimientos tanto de Frontend como 
                                     Backend, es un proyecto interesante y retador ya que combina las necesidades de tener una web llamativa y 
                                     funcional para los usuarios. 
+                                    <a href="">Ver Proyecto<FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
                                 </p>
                             </div>
                         </div>
