@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faReact,faSquareJs,faCss3Alt,faFigma,faNode,faPython,faGitAlt } from "@fortawesome/free-brands-svg-icons"
 import { faDatabase,faCloud } from "@fortawesome/free-solid-svg-icons"
-import React, { useEffect } from 'react';
+
 
 
 export const Skills = () => {

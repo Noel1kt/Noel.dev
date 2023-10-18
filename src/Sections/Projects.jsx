@@ -2,6 +2,8 @@ import '../App.css'
 import  serpientesgt from '../assets/img/serpientesgt.png';
 import  avicolaimage from '../assets/img/avicola.png';
 import  alurageek from '../assets/img/alurageek.png';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
 
 export const Projects = () => {
@@ -19,6 +21,7 @@ export const Projects = () => {
                                 <p className="paragraph-project">Este proyecto surge como una iniciativa para la educación hambiental en Guatemala. 
                                     Se utilizó la librería React-Router-Dom para que la página sea una single-page application (SPA),
                                     además de simular una API con Vercel para obtener la información de las especies. 
+                                    <a href="">Ver Proyecto<FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
                                 </p>
                             </div>
                         </div>
