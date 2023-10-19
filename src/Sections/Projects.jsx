@@ -4,13 +4,16 @@ import  avicolaimage from '../assets/img/avicola.png';
 import  alurageek from '../assets/img/alurageek.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+import { faGithubAlt } from "@fortawesome/free-brands-svg-icons"
 
 
 export const Projects = () => {
     return(
         <section className="section-work">
             <h1>Proyectos</h1>
-            <p className="p-title">Aquí te muestro en lo que he estado trabajando, puedes ver más proyectos en mi Github </p>
+            <p className="p-title">Aquí te muestro en lo que he estado trabajando, puedes ver más proyectos en mi  
+            <a href="https://github.com/Noel1kt" target="_blank">Github<FontAwesomeIcon icon={faGithubAlt} /></a>
+            </p>
             <div>
                 <ul>
                     <li>
