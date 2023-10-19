@@ -12,7 +12,7 @@ export const Projects = () => {
         <section className="section-work">
             <h1>Proyectos</h1>
             <p className="p-title">Aquí te muestro en lo que he estado trabajando, puedes ver más proyectos en mi  
-            <a href="https://github.com/Noel1kt" target="_blank">Github<FontAwesomeIcon icon={faGithubAlt} /></a>
+            <a href="https://github.com/Noel1kt" target="_blank"> Github <FontAwesomeIcon icon={faGithubAlt} /></a>
             </p>
             <div>
                 <ul>

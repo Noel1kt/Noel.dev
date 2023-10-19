@@ -354,6 +354,11 @@
     font-size: 3vh;
     text-align: center;
 }
+
+.section-work a {
+    color: #64ffda;
+    text-decoration: none;
+}
 .section-work ul{
     padding: 0;
 }
@@ -362,7 +367,6 @@
     justify-content: end;
     width: 100%; 
     margin-top: 8%;
-    
 }
 
 
