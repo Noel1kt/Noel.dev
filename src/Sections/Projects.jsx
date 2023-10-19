@@ -11,7 +11,7 @@ export const Projects = () => {
     return(
         <section className="section-work">
             <h1>Proyectos</h1>
-            <p className="p-title">Aquí te muestro en lo que he estado trabajando, puedes ver más proyectos en mi  
+            <p className="p-title">Te muestro algunos proyectos en los que he estado trabajando, puedes ver más proyectos en mi  
             <a href="https://github.com/Noel1kt" target="_blank"> Github <FontAwesomeIcon icon={faGithubAlt} /></a>
             </p>
             <div>

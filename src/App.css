@@ -339,6 +339,7 @@
 .section-work{
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 10%;
 }
 
@@ -353,6 +354,7 @@
     color: #a8b2d1;
     font-size: 3vh;
     text-align: center;
+    width: 70%;
 }
 
 .section-work a {
@@ -428,8 +430,8 @@
     width: 90vh;
     height:  55vh;
     border-radius: 10px;
-    left: 0;
-    margin-left: 35vh;
+    margin-left: 60vh;
+    
 }
 
 @keyframes show1 {

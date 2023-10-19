@@ -9,7 +9,7 @@ export const Skills = () => {
     return(
         <section className="section-skills">
             <h1>Habilidades</h1>
-            <p>A lo largo de mi aprendizaje he usado muchas herramentas y lenguajes de programación, aquí te mustro mis preferidos</p>
+            <p>A lo largo de mi aprendizaje he usado muchas herramentas y lenguajes de programación, puedes ver mis certificaciones aquí. </p>
             <div className="lists-skills">
                 <ul className="ul-skills">
                     <h2>Frontend</h2>
