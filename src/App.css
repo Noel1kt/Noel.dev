@@ -81,7 +81,7 @@
   background: #64ffda;
   border-radius: 50%;
           transform-origin: 87px 87px;
-          animation: rotate 9s ease-in-out 0.5s infinite;
+          animation: rotate 9.7s ease-in-out 0.5s infinite;
           filter: blur(5px);
 }
 
@@ -102,7 +102,7 @@
   background: #64ffda;
   border-radius: 50%;
           transform-origin: 84px 84px;
-          animation: rotate 10.3s ease-in-out 0.7s infinite;
+          animation: rotate 10.7s ease-in-out 0.7s infinite;
           filter: blur(5px);
 }
 
@@ -452,9 +452,16 @@
     text-decoration: none;
     color: #64ffda;
     display: block;
-    padding: 1rem 1rem 1rem 0;
-    
+    padding: 1rem 1rem 1rem 0;    
+    opacity: 0.6;
+    transition: 0.5s ease;
 }
+
+.paragraph-project a:hover{
+    opacity: 1;    
+}
+
+
 .paragraph-project{
     background-color: #112240;
     position: absolute; /* Añade posición absoluta para que se superponga */
