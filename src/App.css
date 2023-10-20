@@ -260,6 +260,38 @@
     width: 70%;
 }
 
+.ancor-one {
+    position: relative;
+    color: #64ffda;
+    text-decoration: none;
+    opacity: 0.6;
+    transition: 0.5s ease;
+}
+
+.ancor-one:hover {
+    opacity: 1;
+}
+
+/* Pseudo-elemento ::before para crear el subrayado */
+.ancor-one::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px; /* Coloca el subrayado justo debajo del texto */
+    left: 50%; /* Coloca el subrayado en el centro */ 
+    background-color: aliceblue;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+    
+}
+
+/* Animación de subrayado al pasar el mouse */
+.ancor-one:hover::before {
+    width: 100%; /* Expande el subrayado al 100% del ancho del enlace */
+    left: 0; /* Coloca el subrayado en la posición inicial */
+    background-color: #64ffda;
+}
+
 
 .lists-skills{
     display: flex;
