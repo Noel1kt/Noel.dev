@@ -68,20 +68,20 @@
   position: absolute;
   top: 27%;
   left: 30%;
-  width: 35vh;
-  height: 35vh;
+  width: 33vh;
+  height: 33vh;
           transform: rotate(8deg);
 }
 .blubb-1:after {
   position: absolute;
   display: block;
   content: '';
-  width: 35vh;
-  height: 35vh;
+  width: 33vh;
+  height: 33vh;
   background: #64ffda;
   border-radius: 50%;
           transform-origin: 87px 87px;
-          animation: rotate 9.7s ease-in-out 0.5s infinite;
+          animation: rotate 8.7s ease-in-out 0.5s infinite;
           filter: blur(5px);
 }
 
@@ -89,20 +89,20 @@
   position: absolute;
   top: 25%;
   left: 25%;
-  width: 35vh;
-  height: 35vh;
-          transform: rotate(7.5deg);
+  width: 33vh;
+  height: 33vh;
+          transform: rotate(6.5deg);
 }
 .blubb-2:after {
   position: absolute;
   display: block;
   content: '';
-  width: 35vh;
-  height: 35vh;
+  width: 33vh;
+  height: 33vh;
   background: #64ffda;
   border-radius: 50%;
           transform-origin: 84px 84px;
-          animation: rotate 10.7s ease-in-out 0.7s infinite;
+          animation: rotate 8.9s ease-in-out 0.7s infinite;
           filter: blur(5px);
 }
 
@@ -110,19 +110,19 @@
   position: absolute;
   top: 25%;
   left: 25%;
-  width: 35vh;
+  width: 33vh;
           transform: rotate(7deg);
 }
 .blubb-3:after {
   position: absolute;
   display: block;
   content: '';
-  width: 35vh;
-  height: 35vh;
+  width: 33vh;
+  height: 33vh;
   background: #64ffda;
   border-radius: 50%;
           transform-origin: 81px 81px;
-          animation: rotate 12.6s ease-in-out 0.9s infinite;
+          animation: rotate 9.1s ease-in-out 0.9s infinite;
           filter: blur(5px);
 }
 
@@ -130,20 +130,20 @@
   position: absolute;
   top: 25%;
   left: 25%;
-  width: 35vh;
-  height: 35vh;
+  width: 33vh;
+  height: 33vh;
           transform: rotate(6.5deg);
 }
 .blubb-4:after {
   position: absolute;
   display: block;
   content: '';
-  width: 35vh;
-  height: 35vh;
+  width: 33vh;
+  height: 33vh;
   background: #64ffda;
   border-radius: 50%;
           transform-origin: 78px 78px;
-          animation: rotate 14.9s ease-in-out 1s infinite;
+          animation: rotate 9.3s ease-in-out 1s infinite;
           filter: blur(5px);
 }
 
@@ -151,20 +151,20 @@
   position: absolute;
   top: 30%;
   left: 25%;
-  width: 35vh;
-  height: 35vh;
+  width: 33vh;
+  height: 33vh;
           transform: rotate(5deg);
 }
 .blubb-5:after {
   position: absolute;
   display: block;
   content: '';
-  width: 35vh;
-  height: 35vh;
+  width: 33vh;
+  height: 33vh;
   background: #64ffda;
   border-radius: 50%;
           transform-origin: 75px 75px;
-          animation: rotate 17.2s ease-in-out 1.3s infinite;
+          animation: rotate 9.5s ease-in-out 1.3s infinite;
           filter: blur(5px);
 }
 
@@ -172,20 +172,20 @@
   position: absolute;
   top: 30%;
   left: 25%;
-  width: 35vh;
-  height: 35vh;
+  width: 33vh;
+  height: 33vh;
           transform: rotate(4deg);
 }
 .blubb-6:after {
   position: absolute;
   display: block;
   content: '';
-  width: 35vh;
-  height: 35vh;
+  width: 33vh;
+  height: 33vh;
   background: #64ffda;
   border-radius: 50%;
           transform-origin: 72px 72px;
-          animation: rotate 18.5s ease-in-out 1.5s infinite;
+          animation: rotate 9.7s ease-in-out 1.5s infinite;
           filter: blur(5px);
 }
 
@@ -193,20 +193,20 @@
   position: absolute;
   top: 30%;
   left: 30%;
-  width: 35vh;
-  height: 35vh;
+  width: 33vh;
+  height: 33vh;
           transform: rotate(3.5deg);
 }
 .blubb-7:after {
   position: absolute;
   display: block;
   content: '';
-  width: 35vh;
-  height: 35vh;
+  width: 33vh;
+  height: 33vh;
   background: #64ffda;
   border-radius: 50%;
           transform-origin: 69px 69px;
-          animation: rotate 20.8s ease-in-out 1.7s infinite;
+          animation: rotate 9.9s ease-in-out 1.7s infinite;
           filter: blur(5px);
 }
 
@@ -214,20 +214,20 @@
   position: absolute;
   top: 30%;
   left: 30%;
-  width: 35vh;
-  height: 35vh;
+  width: 33vh;
+  height: 33vh;
           transform: rotate(3deg);
 }
 .blubb-8:after {
   position: absolute;
   display: block;
   content: '';
-  width: 35vh;
-  height: 35vh;
+  width: 33vh;
+  height: 33vh;
   background: #64ffda;
   border-radius: 50%;
           transform-origin: 66px 66px;
-          animation: rotate 21.1s ease-in-out 1.9s infinite;
+          animation: rotate 10.1s ease-in-out 1.9s infinite;
           filter: blur(5px);
 }
 
