@@ -501,8 +501,8 @@
     height:  55vh;
     border-radius: 10px;
     margin-left: 60vh;
-    
 }
+
 
 @keyframes show1 {
     from {
@@ -525,6 +525,7 @@
 
     animation-range: entry 5% cover 70%;
     animation-fill-mode: both;
+    
 }
 
 /* contact */
