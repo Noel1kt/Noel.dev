@@ -451,7 +451,7 @@
 .paragraph-project a{
     text-decoration: none;
     color: #64ffda;
-    display: block;
+    align-items: center;
     padding: 1rem 1rem 1rem 0;    
     opacity: 0.6;
     transition: 0.5s ease;

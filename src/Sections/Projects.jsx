@@ -23,7 +23,7 @@ export const Projects = () => {
                             <div className="text-project">
                                 <p className="paragraph-project">Este proyecto surge como una iniciativa para la educación hambiental en Guatemala. 
                                     Se utilizó la librería React-Router-Dom para que la página sea una single-page application (SPA),
-                                    además de simular una API con Vercel para obtener la información de las especies. 
+                                    además de simular una API con Vercel para obtener la información de las especies. <br/>
                                     <a href="">Ver Proyecto <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="1x"/></a>
                                 </p>
                             </div>
@@ -37,7 +37,7 @@ export const Projects = () => {
                                 <p className="paragraph-project">
                                     La creación de esta web first mobile surge como solución a la necesidad de hacer cuentas más rapidas
                                     y precisas de una producción avicola, cuenta con los datos de Hy-Line International con los que se consiguió
-                                    adaptar las operaciones necesarias que realiza esta web. 
+                                    adaptar las operaciones necesarias que realiza esta web. <br/>
                                     <a href="">Ver Proyecto <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="1x"/></a>
                                 </p>
                             </div>
@@ -52,7 +52,7 @@ export const Projects = () => {
                                 <p className="paragraph-project">
                                     Para la creación de esta web e-commerce se utilizaron conocimientos tanto de Frontend como 
                                     Backend, es un proyecto interesante y retador ya que combina las necesidades de tener una web llamativa y 
-                                    funcional para los usuarios. 
+                                    funcional para los usuarios. <br/>
                                     <a href="">Ver Proyecto <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="1x"/></a>
                                 </p>
                             </div>
