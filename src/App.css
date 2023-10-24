@@ -321,13 +321,13 @@
     justify-content: start;
     align-items: center;
     list-style: none;
-    color: #ccd6f6;
+    color: #a8b2d1;
     padding: 1rem;
     cursor: pointer;
     transition: opacity 0.5s ease;
 }
 .icon-list{
-    color: #64ffda;
+    color: #a8b2d1;
     opacity: 0.4;
     padding-right: 1.2rem;
     transition: opacity 0.5s ease;
@@ -338,6 +338,7 @@
     opacity: 1;
 }
 .li-skills:hover .icon-list {
+    color: #64ffda;
     opacity: 1;
     /* Otras propiedades para .icon-list cuando se hace hover en .li-skills */
 }
