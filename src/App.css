@@ -274,16 +274,17 @@
         font-size: 3vh;
     }
     .profile-photo{
+        width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: start;
+        align-items: center;
         z-index: -1;  
         
     }
     
     .profile-photo-img{
-        width: 23vh;
-        height: 23vh;
+        width: 30vh;
+        height: 30vh;
         border-radius: 50%;
         position: relative; 
         z-index: 2;  
@@ -812,6 +813,7 @@
        flex-direction: row;
        justify-content: center;
        font-size: 2.5em;
+       margin-top: 0;
     }
     .section-contactnav li{
         padding: 0.5rem;
