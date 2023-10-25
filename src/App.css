@@ -244,14 +244,21 @@
 }
 
 
-/* @media screen and (max-width:768px) {
+@media screen and (max-width:768px) {
     .section-about{
         display: flex;
         flex-direction: column-reverse;
         width: 100%;
-        margin: 1rem;
+        margin: 0;
+        text-align: center;
+    }
+
+    .about-me {
+        width: 90%;
+        padding: 0;
     }
     .about-me h1{
+        
         font-size: 5vh;
         margin: 0%;
     }
@@ -298,7 +305,7 @@
   }
   
   @media screen and (min-width:993px) {
-  } */
+  }
 
 /* Skills */
 .section-skills{
