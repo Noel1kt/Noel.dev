@@ -647,6 +647,14 @@
     
 }
 @media screen and (max-width:768px) {
+    .section-work h1{
+        margin-top: 10%;
+    font-size: 5vh;
+}
+
+.p-title{
+    width: 100%;
+}
     
     .description-projects{
         position: relative;
