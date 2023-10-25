@@ -10,6 +10,7 @@
 }
 
 .about-me h3{
+    font-size: 3vh;
     color: #64ffda;
 }
 .about-me h1{
@@ -82,8 +83,8 @@
   height: 33vh;
   background: #64ffda;
   border-radius: 50%;
-          transform-origin: 87px 87px;
-          animation: rotate 8.7s ease-in-out 0.5s infinite;
+          transform-origin: 97px 97px;
+          animation: rotate 10.5s ease-in-out 0.5s infinite;
           filter: blur(5px);
 }
 
@@ -103,8 +104,8 @@
   height: 33vh;
   background: #64ffda;
   border-radius: 50%;
-          transform-origin: 84px 84px;
-          animation: rotate 8.9s ease-in-out 0.7s infinite;
+          transform-origin: 94px 94px;
+          animation: rotate 10.5s ease-in-out 0.7s infinite;
           filter: blur(5px);
 }
 
@@ -123,8 +124,8 @@
   height: 33vh;
   background: #64ffda;
   border-radius: 50%;
-          transform-origin: 81px 81px;
-          animation: rotate 9.1s ease-in-out 0.9s infinite;
+          transform-origin: 91px 91px;
+          animation: rotate 10.5s ease-in-out 0.9s infinite;
           filter: blur(5px);
 }
 
@@ -144,8 +145,8 @@
   height: 33vh;
   background: #64ffda;
   border-radius: 50%;
-          transform-origin: 78px 78px;
-          animation: rotate 9.3s ease-in-out 1s infinite;
+          transform-origin: 88px 88px;
+          animation: rotate 11s ease-in-out 1s infinite;
           filter: blur(5px);
 }
 
@@ -165,8 +166,8 @@
   height: 33vh;
   background: #64ffda;
   border-radius: 50%;
-          transform-origin: 75px 75px;
-          animation: rotate 9.5s ease-in-out 1.3s infinite;
+          transform-origin: 85px 85px;
+          animation: rotate 11s ease-in-out 1.3s infinite;
           filter: blur(5px);
 }
 
@@ -186,8 +187,8 @@
   height: 33vh;
   background: #64ffda;
   border-radius: 50%;
-          transform-origin: 72px 72px;
-          animation: rotate 9.7s ease-in-out 1.5s infinite;
+          transform-origin: 82px 82px;
+          animation: rotate 11s ease-in-out 1.5s infinite;
           filter: blur(5px);
 }
 
@@ -207,8 +208,8 @@
   height: 33vh;
   background: #64ffda;
   border-radius: 50%;
-          transform-origin: 69px 69px;
-          animation: rotate 9.9s ease-in-out 1.7s infinite;
+          transform-origin: 79px 79px;
+          animation: rotate 12s ease-in-out 1.7s infinite;
           filter: blur(5px);
 }
 
@@ -228,8 +229,8 @@
   height: 33vh;
   background: #64ffda;
   border-radius: 50%;
-          transform-origin: 66px 66px;
-          animation: rotate 10.1s ease-in-out 1.9s infinite;
+          transform-origin: 76px 76px;
+          animation: rotate 12s ease-in-out 1.9s infinite;
           filter: blur(5px);
 }
 
@@ -242,18 +243,14 @@
   }
 }
 
-@media screen and (max-width:768px) {
+
+/* @media screen and (max-width:768px) {
     .section-about{
         display: flex;
         flex-direction: column-reverse;
         width: 100%;
-        margin: 0;
+        margin: 1rem;
     }
-
-    .about-me{
-        padding: 0%;
-    }
-
     .about-me h1{
         font-size: 5vh;
         margin: 0%;
@@ -263,35 +260,32 @@
         color: #a8b2d1;
         font-size: 4vh;
         margin: 0%;
-       
     }
     
     .about-me p{
         color: #8892b0;
         font-size: 3vh;
-        
     }
     .profile-photo{
-        width: 100%;
         display: flex;
-        justify-content: space-around;
+        flex-direction: column;
+        align-items: start;
+        z-index: -1;  
+        
     }
     
     .profile-photo-img{
-        width: 70%;
-        height: 70%;
-        align-items: center;
+        width: 23vh;
+        height: 23vh;
         border-radius: 50%;
-        position: relative; /* Asegura que la posición sea relativa para controlar z-index */
+        position: relative; 
         z-index: 2;  
         padding: 1rem;
     }
     
     .center {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        
+        position: relative;
+        opacity: 0.8;
     }
     .ball {
         display: none;
@@ -304,7 +298,7 @@
   }
   
   @media screen and (min-width:993px) {
-  }
+  } */
 
 /* Skills */
 .section-skills{
