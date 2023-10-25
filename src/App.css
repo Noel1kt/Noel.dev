@@ -247,8 +247,13 @@
         display: flex;
         flex-direction: column-reverse;
         width: 100%;
-        margin: 1rem;
+        margin: 0;
     }
+
+    .about-me{
+        padding: 0%;
+    }
+
     .about-me h1{
         font-size: 5vh;
         margin: 0%;
@@ -258,23 +263,24 @@
         color: #a8b2d1;
         font-size: 4vh;
         margin: 0%;
+       
     }
     
     .about-me p{
         color: #8892b0;
         font-size: 3vh;
+        
     }
     .profile-photo{
+        width: 100%;
         display: flex;
-        flex-direction: column;
-        align-items: start;
-        z-index: -1;  
-        
+        justify-content: space-around;
     }
     
     .profile-photo-img{
-        width: 23vh;
-        height: 23vh;
+        width: 70%;
+        height: 70%;
+        align-items: center;
         border-radius: 50%;
         position: relative; /* Asegura que la posición sea relativa para controlar z-index */
         z-index: 2;  
@@ -282,8 +288,10 @@
     }
     
     .center {
-        position: relative;
-        opacity: 0.8;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
     }
     .ball {
         display: none;
