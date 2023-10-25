@@ -701,7 +701,11 @@
        text-align: center;
        margin-left: 5%;
      }
-    
+     .section-contact h1{
+        margin-top: 10%;
+        font-size: 5vh;
+    }
+     
      .section-contact p{
        width: 100%;
     }
