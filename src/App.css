@@ -434,6 +434,11 @@
 }
 
 @media screen and (max-width:768px) {
+    .section-skills{
+        align-items: center;
+        margin: 10% 0;
+    }
+
     .lists-skills{
         display: flex;
         flex-direction: column;
@@ -443,6 +448,37 @@
         font-size: 3vh;
         
     }
+    .ul-skills {
+       margin: 0%;
+       padding: 0%;
+       align-items: center;
+       display: flex;
+       flex-wrap: wrap;
+      justify-content: center;
+       
+    }
+    .lists-skills h2{
+        display: block;
+        width: 100%;
+        margin-bottom: 0;
+     }
+    .lists-skills li{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+     }
+     .icon-list{
+        padding: 0.5rem;
+     }
+    .section-skills h1{
+        font-size: 5vh;
+    }
+    .section-skills p{
+        width: 100%;
+    }
+   
   }
   
   @media screen and (min-width:993px) {
