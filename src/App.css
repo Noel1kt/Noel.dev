@@ -646,6 +646,39 @@
     animation-fill-mode: both;
     
 }
+@media screen and (max-width:768px) {
+    
+    .description-projects{
+        position: relative;
+        left: 0;
+        margin-left: 1rem;
+    }
+    .section-work li{
+        display: flex;
+       flex-direction: column;
+       text-align: center;
+    }
+    
+    
+    .description-projects h2{
+        margin-top: 0;
+        text-align: center;
+    }
+    
+    .paragraph-project{
+        display: none;
+    }
+    .image-project img{
+        width: 40vh;
+        height:  25vh;
+        border-radius: 10px;
+        margin-left: 0;
+    }
+  }
+  
+  @media screen and (min-width:993px) {
+  }
+
 
 /* contact */
 
