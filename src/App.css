@@ -1,7 +1,7 @@
 .section-about{
     display: flex;
     align-items: center;
-    margin: 10% 5% 10% 10%;
+    margin: 7% 5% 10% 10%;
 }
 
 .about-me{
@@ -506,8 +506,6 @@
 }
 
 
-
-
 .section-work ul{
     padding: 0;
 }
@@ -637,7 +635,10 @@
 }
 .section-contact ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 4em;
    
 }
 .section-contact li {
@@ -657,6 +658,33 @@
     padding-right: 1.2rem;
 }
 
+@media screen and (max-width:768px) {
+    .section-contact{
+       width: 90%;
+       margin: 0;
+       text-align: center;
+       margin-left: 5%;
+     }
+    
+     .section-contact p{
+       width: 100%;
+    }
+    .section-contact ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 20%;
+        font-size: 2.5em;
+    }
+    .section-contact li{
+        padding-top: 0;
+        margin: 0;
+     }
+    
+  }
+  
+  @media screen and (min-width:993px) {
+  }
 
 /* nav list left */
 .section-contactnav {
@@ -666,17 +694,20 @@
     left: 0; /* La barra se coloca en el lado izquierdo de la ventana */
     width: 80px; /* Define el ancho deseado para la barra */
     background-color: #0a192f; /* Color de fondo de la barra */
+
   }
   
-  ul {
+  .section-contactnav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 4em;
   }
   
-  li {
-    text-align: center;
-  }
-  
+ 
   .icon-contact-nav {
     color: #64ffda; /* Color de los iconos */
     margin-top: 1rem;
@@ -690,9 +721,20 @@
 }
 
 @media screen and (max-width:768px) {
-    .section-contact ul{
-        display: none;
+    .section-contactnav{
+        width: 100%;
+       
+     }
+    .section-contactnav ul{
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       font-size: 2.5em;
     }
+    .section-contactnav li{
+        padding: 0.5rem;
+        padding-top: 0;
+     }
     
   }
   
