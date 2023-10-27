@@ -21,7 +21,7 @@ export const Projects = () => {
                         <div className="description-projects">
                             <h2>SerpientesGt</h2>
                             <div className="text-project">
-                                <p className="paragraph-project">Este proyecto surge como una iniciativa para la educación hambiental en Guatemala. 
+                                <p className="paragraph-project">Este proyecto surge como una iniciativa para la educación ambiental en Guatemala. 
                                     Se utilizó la librería React-Router-Dom para que la página sea una single-page application (SPA),
                                     además de simular una API con Vercel para obtener la información de las especies. <br/>
                                     <a href="https://serpientes-gt.vercel.app/" target="_blank">Ver Proyecto <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="1x"/></a>
@@ -32,11 +32,11 @@ export const Projects = () => {
                     <li>
                         <div className='image-project'><img  src={avicolaimage} alt="avicolaweb" /></div>
                         <div className="description-projects">
-                            <h2>Control de Avicola</h2>
+                            <h2>Control de Avícola</h2>
                             <div className="text-project">
                                 <p className="paragraph-project">
-                                    La creación de esta web first mobile surge como solución a la necesidad de hacer cuentas más rapidas
-                                    y precisas de una producción avicola, cuenta con los datos de Hy-Line International con los que se consiguió
+                                    La creación de esta web first mobile surge como solución a la necesidad de hacer cuentas más rápidas
+                                    y precisas de una producción avícola, cuenta con los datos de Hy-Line International con los que se consiguió
                                     adaptar las operaciones necesarias que realiza esta web. <br/>
                                     <a href="https://avicola.vercel.app/" target="_blank">Ver Proyecto <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="1x"/></a>
                                 </p>

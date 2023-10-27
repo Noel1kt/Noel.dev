@@ -9,7 +9,7 @@ export const Skills = () => {
     return(
         <section className="section-skills">
             <h1>Habilidades</h1>
-            <p>A lo largo de mi aprendizaje he usado muchas herramentas y lenguajes de programación, puedes ver mis certificaciones 
+            <p>A lo largo de mi aprendizaje he usado muchas herramientas y lenguajes de programación, puedes ver mis certificaciones 
                 <a className="ancor-one" target="_blank" href="https://app.aluracursos.com/emprega-one/profile/noelmazariegospc"> aquí <FontAwesomeIcon icon={faFileImport} /></a>. </p>
             <div className="lists-skills">
                 <ul className="ul-skills">
